@@ -1,0 +1,74 @@
+[
+    {
+        "caseID": 1,
+        "caseDesc": "Test 1 Test 1 Test 1 Test 1 Test 1 ",
+        "criminalAdd": "0x015bb7051E59239E989bb9BD9019B4aF3f42FE75",
+        "jailPeriod": 90,
+        "caseStat": "true",
+        "jailStat": "true"
+    },
+    {
+        "caseID": 2,
+        "caseDesc": "Test 2 Test 2 Test 2 Test 2 Test 2 ",
+        "criminalAdd": "0xb396Db31f9718A7868Ffc5Ca38253A3011B996F9",
+        "jailPeriod": 90,
+        "caseStat": "true",
+        "jailStat": "true"
+    },
+    {
+        "caseID": 3,
+        "caseDesc": "Test 3 Test 3 Test 3 Test 3 Test 3 ",
+        "criminalAdd": "0xc6d4EEe1d64A2A1667848dDeDCCBe1391Cb0327a",
+        "jailPeriod": 90,
+        "caseStat": "true",
+        "jailStat": "true"
+    },
+    {
+        "caseID": 4,
+        "caseDesc": "Test 3 Test 3 Test 3 Test 3 Test 3 ",
+        "criminalAdd": "0xc6d4EEe1d64A2A1667848dDeDCCBe1391Cb0327a",
+        "jailPeriod": 90,
+        "caseStat": "true",
+        "jailStat": "true"
+    },
+    {
+        "caseID": 5,
+        "caseDesc": "Test 3 Test 3 Test 3 Test 3 Test 3 ",
+        "criminalAdd": "0xc6d4EEe1d64A2A1667848dDeDCCBe1391Cb0327a",
+        "jailPeriod": 90,
+        "caseStat": "true",
+        "jailStat": "true"
+    },
+    {
+        "caseID": 6,
+        "caseDesc": "Test 3 Test 3 Test 3 Test 3 Test 3 ",
+        "criminalAdd": "0xc6d4EEe1d64A2A1667848dDeDCCBe1391Cb0327a",
+        "jailPeriod": 90,
+        "caseStat": "true",
+        "jailStat": "true"
+    },
+    {
+        "caseID": 7,
+        "caseDesc": "Test 3 Test 3 Test 3 Test 3 Test 3 ",
+        "criminalAdd": "0xc6d4EEe1d64A2A1667848dDeDCCBe1391Cb0327a",
+        "jailPeriod": 90,
+        "caseStat": "true",
+        "jailStat": "true"
+    },
+    {
+        "caseID": 8,
+        "caseDesc": "Test 3 Test 3 Test 3 Test 3 Test 3 ",
+        "criminalAdd": "0xc6d4EEe1d64A2A1667848dDeDCCBe1391Cb0327a",
+        "jailPeriod": 90,
+        "caseStat": "true",
+        "jailStat": "true"
+    },
+    {
+        "caseID": 9,
+        "caseDesc": "Test 4 Test 4 Test 4 Test 4 Test 4 ",
+        "criminalAdd": "0x33E24dE3Be6d55f3502F9B1952d81Ac5FFa35fb5",
+        "jailPeriod": 90,
+        "caseStat": "true",
+        "jailStat": "true"
+    }
+]

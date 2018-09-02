@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Decentralized Court</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+  <div class="msg">hello</div>
+  <div id="wrapper">
+
+    <!-- Sidebar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+      <ul class="nav sidebar-nav">
+        <li class="sidebar-brand">
+          <a href="#">
+            Decentralized Court
+          </a>
+        </li>
+        <li>
+          <a href="#" id="nav-1">Create Case</a>
+        </li>
+        <li>
+          <a href="#" id="nav-2">Retreive All Cases</a>
+        </li>
+        <li>
+          <a href="#" id="nav-3">Check Amount </a>
+        </li>
+        <li>
+          <a href="#" id="nav-4">Pay for Jail</a>
+        </li>
+        <li>
+      </ul>
+    </nav>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper" class="fadeIn">
+      <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+        <span class="hamb-top"></span>
+        <span class="hamb-middle"></span>
+        <span class="hamb-bottom"></span>
+      </button>
+      <div class="container welcome">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <h1><span class="landchain"> Decentralized Court</span></h1>
+          </div>
+        </div>
+        <img src="hacker-jail.png" alt="" id="hero">
+      </div>
+    </div>
+    <!-- /#page-content-wrapper -->
+
+  </div>
+
+  <div class="container">
+    <div id="content-1" class="fadeIn">
+      <div class="first-form mm-5 ">
+        <h3>Creating new case</h3>
+        <div class="form-group">
+            <label for="approve-key">Case Description:</label>
+            <input type="text" class="form-control" id="case-desc1" placeholder="Enter case details/description">
+          </div>
+        <div class="form-group">
+              <label for="approve-key">Evidence Hash:</label>
+              <input type="text" class="form-control" id="case-evidence1" placeholder="Enter case details/description">
+            </div>
+        <div class="form-group">
+          <label for="approve-id">Criminal Address:</label>
+          <input type="id" class="form-control" id="case-address1" placeholder="Enter criminal address">
+        </div>
+        <div class="form-group">
+          <label for="approve-id">Jail Period:</label>
+          <input type="id" class="form-control" id="case-period1" placeholder="Enter jail period in (days)">
+        </div>        
+        <div class="form-group">
+          <label for="approve-id">Status:</label><br>
+          <label for="approve-id">Judge </label>
+          <input type="radio" class="radio-control" name="case-status1" value="true" checked> Approved
+          <input type="radio" class="radio-control" name="case-status1" value="false"> Not Approved<br>        
+        </div>
+        <button class="btn btn-primary create">
+          Create Case
+        </button>
+        <ul class="cases"/>
+      </div>
+    </div>
+
+    <div id="content-2" class="fadeIn">
+      <div class="first-form mm-5 ">
+        <h3>Retreive All Cases</h3>
+        <div class="form-group">
+          <label for="approve-id">Criminal Address:</label>
+          <input type="text" class="form-control" id="case-address2" placeholder="Enter criminal address">
+        </div>
+        <button class="btn btn-primary get-case">
+          Retreive Cases
+        </button>
+      </div>
+    </div>
+
+    <div id="content-3" class="fadeIn">
+      <div class="first-form mm-5 ">
+        <h3>Check Amount to be Paied for Jail</h3>
+        <div class="form-group">
+          <label for="approve-id">Case Id:</label>
+          <input type="id" class="form-control" id="case-id3" placeholder="Enter case id">
+        </div>
+        <button class="btn btn-primary get-amount">
+          Get Amount
+        </button>
+      </div>
+    </div>
+
+    <div id="content-4" class="fadeIn">
+      <div class="first-form mm-5 ">
+        <h3>Pay for Jail</h3>
+        <div class="form-group">
+          <label for="approve-id">Case Id:</label>
+          <input type="id" class="form-control" id="case-id4" placeholder="Enter case id">
+        </div>
+        <button class="btn btn-primary pay-amount">
+          Pay Amount
+        </button>
+      </div>
+      <div class="first-form mm-5 ">        
+        <h3>Clear/Reset Case</h3>
+        <div class="form-group">
+          <label for="approve-id">Case Id:</label>
+          <input type="id" class="form-control" id="case-id5" placeholder="Enter case id">
+        </div>
+        <div class="form-group">
+          <label for="approve-id">Status:</label><br>
+          <input type="radio" class="radio-control" name="case-status5" value="true" checked> Active
+          <input type="radio" class="radio-control" name="case-status5" value="false"> Not Not Active<br>        
+        </div>
+        <button class="btn btn-primary clear-reset">
+          Clear/Reset
+        </button>          
+      </div>
+    </div>
+    
+  </div>
+  <!-- /#wrapper -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/web3.min.js"></script>
+  <script src="js/truffle-contract.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/nav.js"></script>
+</body>
+
+</html>
